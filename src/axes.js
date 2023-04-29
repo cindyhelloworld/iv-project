@@ -21,6 +21,21 @@ function XAxis (props) {
             </text>
         </g>
     }
+
+    
+    if (chartType === "bar") {
+        return <g>
+            {<line x1={0} y1={height} x2={width} y2={height} stroke='black'/>}
+            {xScale.domain().map(tickValue =>
+                <g key={tickValue+'B'} transform={`translate(${xScale(tickValue)}, 0)`}>
+                    <line y2={height} />
+                    <text style={{textAnchor: 'start', fontSize:'6px' }} y={height+3} transform={`rotate(70, 0, ${height+5})`}>
+                        {tickValue}
+                    </text>
+                </g>
+            )}
+        </g>
+    }
 }
 
 function YAxis(props) {
@@ -30,7 +45,7 @@ function YAxis(props) {
         {yScale.ticks().map(tickValue => 
             <g key={tickValue} transform={`translate(-10, ${yScale(tickValue)})`}>
                 <line x2={10} stroke='black' />
-                <text style={{ textAnchor:'end', fontSize:'10px' }} >
+                <text style={{ textAnchor:'end', fontSize:'6px' }} >
                     {tickValue}
                 </text>
             </g>

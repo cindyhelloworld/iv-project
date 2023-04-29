@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { csv } from 'd3';
 import { ScatterPlot } from './scatterplot';
-// import { BarChart } from './barchart';
+import { BarChart } from './barchart';
 import { Tooltip } from "./tooltip";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //url
-const csvUrl = "https://raw.githubusercontent.com/xxt9876543210/iv-project/master/data/archive/final_cleaned.csv"
+const csvUrl = "https://raw.githubusercontent.com/xxt9876543210/iv-project/master/data/cleaned_joint.csv"
 //function for loading the data
 function useData(csvPath){
     const [dataAll, setData] = React.useState(null);
@@ -16,6 +16,8 @@ function useData(csvPath){
             data.forEach(d => {
                 d.Released_Year = +d.Released_Year;
                 d.IMDB_Rating = +d.IMDB_Rating;
+                d.revenue = +d.revenue;
+                d.budget = +d.budget;
             });
             setData(data);
         });
@@ -44,7 +46,7 @@ function Charts () {
                    return <pre>Loading...</pre>;
                 };
     
-    const YEAR = ['1920s', '1930s', '1940s', '1950s', '1960s', '1970s', '1980s', '1990s', '2000s', '2010s', '2020'];
+    const YEAR = ['1920s', '1930s', '1940s', '1950s', '1960s', '1970s', '1980s', '1990s', '2000s', '2010s'];
     //get the monthly data
     const data = dataAll.filter( d => { 
         return d.range === YEAR[range] 
@@ -54,7 +56,7 @@ function Charts () {
     
     return <div>
         <div>
-            <input key="slider" type='range' min='0' max='10' value={range} step='1' onChange={changeHandler}/>
+            <input key="slider" type='range' min='0' max='9' value={range} step='1' onChange={changeHandler}/>
             <input key="monthText" type="text" value={YEAR[range]} readOnly/>
         </div>
         <div className='row'>
@@ -66,11 +68,11 @@ function Charts () {
                 </svg>
                 <Tooltip d={dTooltip} left={tooltipLeft} top={tooltipTop} />
             </div>
-            {/* <div className='col-lg-6'>
+            <div className='col-lg-6'>
                 <svg width={'100%'} viewBox={`0 0 ${SVG_WIDTH} ${SVG_HEIGHT}`}>
-                    <BarChart />
+                <BarChart offsetX={margin.left-5} offsetY={margin.top} height={height} width={width} data={data}/>
                 </svg>
-            </div> */}
+            </div>
         </div>
     </div> 
 }

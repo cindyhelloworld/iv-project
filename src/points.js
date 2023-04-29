@@ -1,19 +1,6 @@
 import React from "react";
 
 export function Points(props){
-//     const {data, xScale, yScale, height, width} = props;
-//     const getColor = () => {
-//         return "steelblue"
-//     }
-//     const getRadius = () =>  {
-//         return 5
-//     }
-//     return <g>
-//     {data.map(d => <circle key={d.Series_Title} cx={xScale(d.Released_Year)} 
-//     cy={yScale(d.IMDB_Rating)} r={getRadius()} stroke="black" 
-//     fill={getColor()} />)}
-//     </g>
-// }
 const {data, xScale, yScale, height, width, 
     selectedStation, setSelectedStation, setTooltipLeft,  setTooltipTop} = props;
 const getColor = (selectedStation, station) => {
@@ -21,8 +8,8 @@ const getColor = (selectedStation, station) => {
     }else{return "steelblue"}
 }
 const getRadius = (selectedStation, station) =>  {
-    if (station === selectedStation){return 10
-    }else{return 5}
+    if (station === selectedStation){return 8
+    }else{return 4}
 }
 if (selectedStation === null){
     return <g>

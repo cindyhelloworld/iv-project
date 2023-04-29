@@ -1,9 +1,9 @@
 Series_Title,Released_Year,Runtime,Genre,IMDB_Rating,Director,Star1,Star2,Star3,Star4,No_of_Votes,range
 The Shawshank Redemption,1994,142 min,Drama,9.3,Frank Darabont,Tim Robbins,Morgan Freeman,Bob Gunton,William Sadler,2343110,1990s
 The Godfather,1972,175 min,"Crime, Drama",9.2,Francis Ford Coppola,Marlon Brando,Al Pacino,James Caan,Diane Keaton,1620367,1970s
-The Dark Knight,2008,152 min,"Action, Crime, Drama",9.0,Christopher Nolan,Christian Bale,Heath Ledger,Aaron Eckhart,Michael Caine,2303232,2000s
-The Godfather: Part II,1974,202 min,"Crime, Drama",9.0,Francis Ford Coppola,Al Pacino,Robert De Niro,Robert Duvall,Diane Keaton,1129952,1970s
-12 Angry Men,1957,96 min,"Crime, Drama",9.0,Sidney Lumet,Henry Fonda,Lee J. Cobb,Martin Balsam,John Fiedler,689845,1950s
+The Dark Knight,2008,152 min,"Action, Crime, Drama",9,Christopher Nolan,Christian Bale,Heath Ledger,Aaron Eckhart,Michael Caine,2303232,2000s
+The Godfather: Part II,1974,202 min,"Crime, Drama",9,Francis Ford Coppola,Al Pacino,Robert De Niro,Robert Duvall,Diane Keaton,1129952,1970s
+12 Angry Men,1957,96 min,"Crime, Drama",9,Sidney Lumet,Henry Fonda,Lee J. Cobb,Martin Balsam,John Fiedler,689845,1950s
 The Lord of the Rings: The Return of the King,2003,201 min,"Action, Adventure, Drama",8.9,Peter Jackson,Elijah Wood,Viggo Mortensen,Ian McKellen,Orlando Bloom,1642758,2000s
 Pulp Fiction,1994,154 min,"Crime, Drama",8.9,Quentin Tarantino,John Travolta,Uma Thurman,Samuel L. Jackson,Bruce Willis,1826188,1990s
 Schindler's List,1993,195 min,"Biography, Drama, History",8.9,Steven Spielberg,Liam Neeson,Ralph Fiennes,Ben Kingsley,Caroline Goodall,1213505,1990s
@@ -321,147 +321,147 @@ The Circus,1928,72 min,"Comedy, Romance",8.1,Charles Chaplin,Charles Chaplin,Mer
 Sunrise: A Song of Two Humans,1927,94 min,"Drama, Romance",8.1,F.W. Murnau,George O'Brien,Janet Gaynor,Margaret Livingston,Bodil Rosing,46865,1920s
 The General,1926,67 min,"Action, Adventure, Comedy",8.1,Clyde Bruckman,Buster Keaton,Buster Keaton,Marion Mack,Glen Cavender,81156,1920s
 Das Cabinet des Dr. Caligari,1920,76 min,"Fantasy, Horror, Mystery",8.1,Robert Wiene,Werner Krauss,Conrad Veidt,Friedrich Feher,Lil Dagover,57428,1920s
-Badhaai ho,2018,124 min,"Comedy, Drama",8.0,Amit Ravindernath Sharma,Ayushmann Khurrana,Neena Gupta,Gajraj Rao,Sanya Malhotra,27978,2010s
-Togo,2019,113 min,"Adventure, Biography, Drama",8.0,Ericson Core,Willem Dafoe,Julianne Nicholson,Christopher Heyerdahl,Richard Dormer,37556,2010s
-Airlift,2016,130 min,"Drama, History",8.0,Raja Menon,Akshay Kumar,Nimrat Kaur,Kumud Mishra,Prakash Belawadi,52897,2010s
-Bajrangi Bhaijaan,2015,163 min,"Action, Adventure, Comedy",8.0,Kabir Khan,Salman Khan,Harshaali Malhotra,Nawazuddin Siddiqui,Kareena Kapoor,72245,2010s
-Baby,2015,159 min,"Action, Crime, Thriller",8.0,Neeraj Pandey,Akshay Kumar,Danny Denzongpa,Rana Daggubati,Taapsee Pannu,52848,2010s
-La La Land,2016,128 min,"Comedy, Drama, Music",8.0,Damien Chazelle,Ryan Gosling,Emma Stone,Rosemarie DeWitt,J.K. Simmons,505918,2010s
-Lion,2016,118 min,"Biography, Drama",8.0,Garth Davis,Dev Patel,Nicole Kidman,Rooney Mara,Sunny Pawar,213970,2010s
-The Martian,2015,144 min,"Adventure, Drama, Sci-Fi",8.0,Ridley Scott,Matt Damon,Jessica Chastain,Kristen Wiig,Kate Mara,760094,2010s
-Zootopia,2016,108 min,"Animation, Adventure, Comedy",8.0,Byron Howard,Rich Moore,Jared Bush,Ginnifer Goodwin,Jason Bateman,434143,2010s
-Bãhubali: The Beginning,2015,159 min,"Action, Drama",8.0,S.S. Rajamouli,Prabhas,Rana Daggubati,Ramya Krishnan,Sathyaraj,102972,2010s
-Kaguyahime no monogatari,2013,137 min,"Animation, Adventure, Drama",8.0,Isao Takahata,Chloë Grace Moretz,James Caan,Mary Steenburgen,James Marsden,38746,2010s
-Wonder,2017,113 min,"Drama, Family",8.0,Stephen Chbosky,Jacob Tremblay,Owen Wilson,Izabela Vidovic,Julia Roberts,141923,2010s
-Gully Boy,2019,154 min,"Drama, Music, Romance",8.0,Zoya Akhtar,Vijay Varma,Nakul Roshan Sahdev,Ranveer Singh,Vijay Raaz,31886,2010s
-Special Chabbis,2013,144 min,"Crime, Drama, Thriller",8.0,Neeraj Pandey,Akshay Kumar,Anupam Kher,Manoj Bajpayee,Jimmy Sheirgill,51069,2010s
-Short Term 12,2013,96 min,Drama,8.0,Destin Daniel Cretton,Brie Larson,Frantz Turner,John Gallagher Jr.,Kaitlyn Dever,81770,2010s
-Serbuan maut 2: Berandal,2014,150 min,"Action, Crime, Thriller",8.0,Gareth Evans,Iko Uwais,Yayan Ruhian,Arifin Putra,Oka Antara,114316,2010s
-The Imitation Game,2014,114 min,"Biography, Drama, Thriller",8.0,Morten Tyldum,Benedict Cumberbatch,Keira Knightley,Matthew Goode,Allen Leech,685201,2010s
-Guardians of the Galaxy,2014,121 min,"Action, Adventure, Comedy",8.0,James Gunn,Chris Pratt,Vin Diesel,Bradley Cooper,Zoe Saldana,1043455,2010s
-Blade Runner 2049,2017,164 min,"Action, Drama, Mystery",8.0,Denis Villeneuve,Harrison Ford,Ryan Gosling,Ana de Armas,Dave Bautista,461823,2010s
-Her,2013,126 min,"Drama, Romance, Sci-Fi",8.0,Spike Jonze,Joaquin Phoenix,Amy Adams,Scarlett Johansson,Rooney Mara,540772,2010s
-Bohemian Rhapsody,2018,134 min,"Biography, Drama, Music",8.0,Bryan Singer,Rami Malek,Lucy Boynton,Gwilym Lee,Ben Hardy,450349,2010s
-The Revenant,2015,156 min,"Action, Adventure, Drama",8.0,Alejandro G. Iñárritu,Leonardo DiCaprio,Tom Hardy,Will Poulter,Domhnall Gleeson,705589,2010s
-The Perks of Being a Wallflower,2012,103 min,"Drama, Romance",8.0,Stephen Chbosky,Logan Lerman,Emma Watson,Ezra Miller,Paul Rudd,462252,2010s
-Tropa de Elite 2: O Inimigo Agora é Outro,2010,115 min,"Action, Crime, Drama",8.0,José Padilha,Wagner Moura,Irandhir Santos,André Ramiro,Milhem Cortaz,79200,2010s
-The King's Speech,2010,118 min,"Biography, Drama, History",8.0,Tom Hooper,Colin Firth,Geoffrey Rush,Helena Bonham Carter,Derek Jacobi,639603,2010s
-The Help,2011,146 min,Drama,8.0,Tate Taylor,Emma Stone,Viola Davis,Octavia Spencer,Bryce Dallas Howard,428521,2010s
-Deadpool,2016,108 min,"Action, Adventure, Comedy",8.0,Tim Miller,Ryan Reynolds,Morena Baccarin,T.J. Miller,Ed Skrein,902669,2010s
-Darbareye Elly,2009,119 min,"Drama, Mystery",8.0,Asghar Farhadi,Golshifteh Farahani,Shahab Hosseini,Taraneh Alidoosti,Merila Zare'i,45803,2000s
-Dev.D,2009,144 min,"Drama, Romance",8.0,Anurag Kashyap,Abhay Deol,Mahie Gill,Kalki Koechlin,Dibyendu Bhattacharya,28749,2000s
-Yip Man,2008,106 min,"Action, Biography, Drama",8.0,Wilson Yip,Donnie Yen,Simon Yam,Siu-Wong Fan,Ka Tung Lam,211427,2000s
-My Name Is Khan,2010,165 min,Drama,8.0,Karan Johar,Shah Rukh Khan,Kajol,Sheetal Menon,Katie A. Keane,98575,2010s
-Nefes: Vatan Sagolsun,2009,128 min,"Action, Drama, Thriller",8.0,Levent Semerci,Erdem Can,Mete Horozoglu,Ilker Kizmaz,Baris Bagci,31838,2000s
-Slumdog Millionaire,2008,120 min,"Drama, Romance",8.0,Danny Boyle,Loveleen Tandan,Dev Patel,Freida Pinto,Saurabh Shukla,798882,2000s
-Black Swan,2010,108 min,"Drama, Thriller",8.0,Darren Aronofsky,Natalie Portman,Mila Kunis,Vincent Cassel,Winona Ryder,699673,2010s
-Tropa de Elite,2007,115 min,"Action, Crime, Drama",8.0,José Padilha,Wagner Moura,André Ramiro,Caio Junqueira,Milhem Cortaz,98097,2000s
-The Avengers,2012,143 min,"Action, Adventure, Sci-Fi",8.0,Joss Whedon,Robert Downey Jr.,Chris Evans,Scarlett Johansson,Jeremy Renner,1260806,2010s
-Persepolis,2007,96 min,"Animation, Biography, Drama",8.0,Vincent Paronnaud,Marjane Satrapi,Chiara Mastroianni,Catherine Deneuve,Gena Rowlands,88656,2000s
-Dallas Buyers Club,2013,117 min,"Biography, Drama",8.0,Jean-Marc Vallée,Matthew McConaughey,Jennifer Garner,Jared Leto,Steve Zahn,441614,2010s
-The Pursuit of Happyness,2006,117 min,"Biography, Drama",8.0,Gabriele Muccino,Will Smith,Thandie Newton,Jaden Smith,Brian Howe,448930,2000s
-Blood Diamond,2006,143 min,"Adventure, Drama, Thriller",8.0,Edward Zwick,Leonardo DiCaprio,Djimon Hounsou,Jennifer Connelly,Kagiso Kuypers,499439,2000s
-The Bourne Ultimatum,2007,115 min,"Action, Mystery, Thriller",8.0,Paul Greengrass,Matt Damon,Edgar Ramírez,Joan Allen,Julia Stiles,604694,2000s
-Bin-jip,2004,88 min,"Crime, Drama, Romance",8.0,Ki-duk Kim,Seung-Yun Lee,Hee Jae,Hyuk-ho Kwon,Jin-mo Joo,50610,2000s
-Sin City,2005,124 min,"Crime, Thriller",8.0,Frank Miller,Quentin Tarantino,Robert Rodriguez,Mickey Rourke,Clive Owen,738512,2000s
-Le scaphandre et le papillon,2007,112 min,"Biography, Drama",8.0,Julian Schnabel,Laura Obiols,Mathieu Amalric,Emmanuelle Seigner,Marie-Josée Croze,103284,2000s
-G.O.R.A.,2004,127 min,"Adventure, Comedy, Sci-Fi",8.0,Ömer Faruk Sorak,Cem Yilmaz,Özge Özberk,Ozan Güven,Safak Sezer,56960,2000s
-Ratatouille,2007,111 min,"Animation, Adventure, Comedy",8.0,Brad Bird,Jan Pinkava,Brad Garrett,Lou Romano,Patton Oswalt,641645,2000s
-Casino Royale,2006,144 min,"Action, Adventure, Thriller",8.0,Martin Campbell,Daniel Craig,Eva Green,Judi Dench,Jeffrey Wright,582239,2000s
-Kill Bill: Vol. 2,2004,137 min,"Action, Crime, Thriller",8.0,Quentin Tarantino,Uma Thurman,David Carradine,Michael Madsen,Daryl Hannah,683900,2000s
-Vozvrashchenie,2003,110 min,Drama,8.0,Andrey Zvyagintsev,Vladimir Garin,Ivan Dobronravov,Konstantin Lavronenko,Nataliya Vdovina,42399,2000s
-Bom Yeoareum Gaeul Gyeoul Geurigo Bom,2003,103 min,"Drama, Romance",8.0,Ki-duk Kim,Ki-duk Kim,Yeong-su Oh,Jong-ho Kim,Kim Young-Min,77520,2000s
-Mar adentro,2014,126 min,"Biography, Drama",8.0,Alejandro Amenábar,Javier Bardem,Belén Rueda,Lola Dueñas,Mabel Rivera,77554,2010s
-Cinderella Man,2005,144 min,"Biography, Drama, History",8.0,Ron Howard,Russell Crowe,Renée Zellweger,Craig Bierko,Paul Giamatti,176151,2000s
-Kal Ho Naa Ho,2003,186 min,"Comedy, Drama, Musical",8.0,Nikkhil Advani,Preity Zinta,Shah Rukh Khan,Saif Ali Khan,Jaya Bachchan,63460,2000s
-Mou gaan dou,2002,101 min,"Action, Crime, Drama",8.0,Andrew Lau,Alan Mak,Andy Lau,Tony Chiu-Wai Leung,Anthony Chau-Sang Wong,117857,2000s
-Pirates of the Caribbean: The Curse of the Black Pearl,2003,143 min,"Action, Adventure, Fantasy",8.0,Gore Verbinski,Johnny Depp,Geoffrey Rush,Orlando Bloom,Keira Knightley,1015122,2000s
-Big Fish,2003,125 min,"Adventure, Drama, Fantasy",8.0,Tim Burton,Ewan McGregor,Albert Finney,Billy Crudup,Jessica Lange,415218,2000s
-The Incredibles,2004,115 min,"Animation, Action, Adventure",8.0,Brad Bird,Craig T. Nelson,Samuel L. Jackson,Holly Hunter,Jason Lee,657047,2000s
-Yeopgijeogin geunyeo,2001,137 min,"Comedy, Drama, Romance",8.0,Jae-young Kwak,Tae-Hyun Cha,Jun Ji-Hyun,In-mun Kim,Song Wok-suk,45403,2000s
-Dogville,2003,178 min,"Crime, Drama",8.0,Lars von Trier,Nicole Kidman,Paul Bettany,Lauren Bacall,Harriet Andersson,137963,2000s
-Vizontele,2001,110 min,"Comedy, Drama",8.0,Yilmaz Erdogan,Ömer Faruk Sorak,Yilmaz Erdogan,Demet Akbag,Altan Erkekli,33592,2000s
-Donnie Darko,2001,113 min,"Drama, Mystery, Sci-Fi",8.0,Richard Kelly,Jake Gyllenhaal,Jena Malone,Mary McDonnell,Holmes Osborne,740086,2000s
-Magnolia,1999,188 min,Drama,8.0,Paul Thomas Anderson,Tom Cruise,Jason Robards,Julianne Moore,Philip Seymour Hoffman,289742,1990s
-Dancer in the Dark,2000,140 min,"Crime, Drama, Musical",8.0,Lars von Trier,Björk,Catherine Deneuve,David Morse,Peter Stormare,102285,2000s
-The Straight Story,1999,112 min,"Biography, Drama",8.0,David Lynch,Richard Farnsworth,Sissy Spacek,Jane Galloway Heitz,Joseph A. Carpenter,82002,1990s
-Pâfekuto burû,1997,81 min,"Animation, Crime, Mystery",8.0,Satoshi Kon,Junko Iwao,Rica Matsumoto,Shinpachi Tsuji,Masaaki Ôkura,58192,1990s
-Festen,1998,105 min,Drama,8.0,Thomas Vinterberg,Ulrich Thomsen,Henning Moritzen,Thomas Bo Larsen,Paprika Steen,78341,1990s
-Central do Brasil,1998,110 min,Drama,8.0,Walter Salles,Fernanda Montenegro,Vinícius de Oliveira,Marília Pêra,Soia Lira,36419,1990s
-The Iron Giant,1999,86 min,"Animation, Action, Adventure",8.0,Brad Bird,Eli Marienthal,Harry Connick Jr.,Jennifer Aniston,Vin Diesel,172083,1990s
-Knockin' on Heaven's Door,1997,87 min,"Action, Crime, Comedy",8.0,Thomas Jahn,Til Schweiger,Jan Josef Liefers,Thierry van Werveke,Moritz Bleibtreu,27721,1990s
-Sling Blade,1996,135 min,Drama,8.0,Billy Bob Thornton,Billy Bob Thornton,Dwight Yoakam,J.T. Walsh,John Ritter,86838,1990s
-Secrets & Lies,1996,136 min,"Comedy, Drama",8.0,Mike Leigh,Timothy Spall,Brenda Blethyn,Phyllis Logan,Claire Rushbrook,37564,1990s
-Twelve Monkeys,1995,129 min,"Mystery, Sci-Fi, Thriller",8.0,Terry Gilliam,Bruce Willis,Madeleine Stowe,Brad Pitt,Joseph Melito,578443,1990s
-Kôkaku Kidôtai,1995,83 min,"Animation, Action, Crime",8.0,Mamoru Oshii,Atsuko Tanaka,Iemasa Kayumi,Akio Ôtsuka,Kôichi Yamadera,129231,1990s
-The Nightmare Before Christmas,1993,76 min,"Animation, Family, Fantasy",8.0,Henry Selick,Danny Elfman,Chris Sarandon,Catherine O'Hara,William Hickey,300208,1990s
-Groundhog Day,1993,101 min,"Comedy, Fantasy, Romance",8.0,Harold Ramis,Bill Murray,Andie MacDowell,Chris Elliott,Stephen Tobolowsky,577991,1990s
-Bound by Honor,1993,180 min,"Crime, Drama",8.0,Taylor Hackford,Damian Chapa,Jesse Borrego,Benjamin Bratt,Enrique Castillo,28825,1990s
-Scent of a Woman,1992,156 min,Drama,8.0,Martin Brest,Al Pacino,Chris O'Donnell,James Rebhorn,Gabrielle Anwar,263918,1990s
-Aladdin,1992,90 min,"Animation, Adventure, Comedy",8.0,Ron Clements,John Musker,Scott Weinger,Robin Williams,Linda Larkin,373845,1990s
-JFK,1991,189 min,"Drama, History, Thriller",8.0,Oliver Stone,Kevin Costner,Gary Oldman,Jack Lemmon,Walter Matthau,142110,1990s
-Beauty and the Beast,1991,84 min,"Animation, Family, Fantasy",8.0,Gary Trousdale,Kirk Wise,Paige O'Hara,Robby Benson,Jesse Corti,417178,1990s
-Dances with Wolves,1990,181 min,"Adventure, Drama, Western",8.0,Kevin Costner,Kevin Costner,Mary McDonnell,Graham Greene,Rodney A. Grant,240266,1990s
-Do the Right Thing,1989,120 min,"Comedy, Drama",8.0,Spike Lee,Danny Aiello,Ossie Davis,Ruby Dee,Richard Edson,89429,1980s
-Rain Man,1988,133 min,Drama,8.0,Barry Levinson,Dustin Hoffman,Tom Cruise,Valeria Golino,Gerald R. Molen,473064,1980s
-Akira,1988,124 min,"Animation, Action, Sci-Fi",8.0,Katsuhiro Ôtomo,Mitsuo Iwata,Nozomu Sasaki,Mami Koyama,Tesshô Genda,164918,1980s
-The Princess Bride,1987,98 min,"Adventure, Family, Fantasy",8.0,Rob Reiner,Cary Elwes,Mandy Patinkin,Robin Wright,Chris Sarandon,393899,1980s
-Der Himmel über Berlin,1987,128 min,"Drama, Fantasy, Romance",8.0,Wim Wenders,Bruno Ganz,Solveig Dommartin,Otto Sander,Curt Bois,64722,1980s
-Au revoir les enfants,1987,104 min,"Drama, War",8.0,Louis Malle,Gaspard Manesse,Raphael Fejtö,Francine Racette,Stanislas Carré de Malberg,31163,1980s
-Tenkû no shiro Rapyuta,1986,125 min,"Animation, Adventure, Drama",8.0,Hayao Miyazaki,Mayumi Tanaka,Keiko Yokozawa,Kotoe Hatsui,Minori Terada,150140,1980s
-The Terminator,1984,107 min,"Action, Sci-Fi",8.0,James Cameron,Arnold Schwarzenegger,Linda Hamilton,Michael Biehn,Paul Winfield,799795,1980s
-Gandhi,1982,191 min,"Biography, Drama, History",8.0,Richard Attenborough,Ben Kingsley,John Gielgud,Rohini Hattangadi,Roshan Seth,217664,1980s
-Kagemusha,1980,180 min,"Drama, History, War",8.0,Akira Kurosawa,Tatsuya Nakadai,Tsutomu Yamazaki,Ken'ichi Hagiwara,Jinpachi Nezu,32195,1980s
-Being There,1979,130 min,"Comedy, Drama",8.0,Hal Ashby,Peter Sellers,Shirley MacLaine,Melvyn Douglas,Jack Warden,65625,1970s
-Annie Hall,1977,93 min,"Comedy, Romance",8.0,Woody Allen,Woody Allen,Diane Keaton,Tony Roberts,Carol Kane,251823,1970s
-Jaws,1975,124 min,"Adventure, Thriller",8.0,Steven Spielberg,Roy Scheider,Robert Shaw,Richard Dreyfuss,Lorraine Gary,543388,1970s
-Dog Day Afternoon,1975,125 min,"Biography, Crime, Drama",8.0,Sidney Lumet,Al Pacino,John Cazale,Penelope Allen,Sully Boyar,235652,1970s
-Young Frankenstein,1974,106 min,Comedy,8.0,Mel Brooks,Gene Wilder,Madeline Kahn,Marty Feldman,Peter Boyle,143359,1970s
-Papillon,1973,151 min,"Biography, Crime, Drama",8.0,Franklin J. Schaffner,Steve McQueen,Dustin Hoffman,Victor Jory,Don Gordon,121627,1970s
-The Exorcist,1973,122 min,Horror,8.0,William Friedkin,Ellen Burstyn,Max von Sydow,Linda Blair,Lee J. Cobb,362393,1970s
-Sleuth,1972,138 min,"Mystery, Thriller",8.0,Joseph L. Mankiewicz,Laurence Olivier,Michael Caine,Alec Cawthorne,John Matthews,44748,1970s
-The Last Picture Show,1971,118 min,"Drama, Romance",8.0,Peter Bogdanovich,Timothy Bottoms,Jeff Bridges,Cybill Shepherd,Ben Johnson,42456,1970s
-Fiddler on the Roof,1971,181 min,"Drama, Family, Musical",8.0,Norman Jewison,Topol,Norma Crane,Leonard Frey,Molly Picon,39491,1970s
-Il conformista,1970,113 min,Drama,8.0,Bernardo Bertolucci,Jean-Louis Trintignant,Stefania Sandrelli,Gastone Moschin,Enzo Tarascio,27067,1970s
-Butch Cassidy and the Sundance Kid,1969,110 min,"Biography, Crime, Drama",8.0,George Roy Hill,Paul Newman,Robert Redford,Katharine Ross,Strother Martin,201888,1960s
-Rosemary's Baby,1968,137 min,"Drama, Horror",8.0,Roman Polanski,Mia Farrow,John Cassavetes,Ruth Gordon,Sidney Blackmer,193674,1960s
-Planet of the Apes,1968,112 min,"Adventure, Sci-Fi",8.0,Franklin J. Schaffner,Charlton Heston,Roddy McDowall,Kim Hunter,Maurice Evans,165167,1960s
-The Graduate,1967,106 min,"Comedy, Drama, Romance",8.0,Mike Nichols,Dustin Hoffman,Anne Bancroft,Katharine Ross,William Daniels,253676,1960s
-Who's Afraid of Virginia Woolf?,1966,131 min,Drama,8.0,Mike Nichols,Elizabeth Taylor,Richard Burton,George Segal,Sandy Dennis,68926,1960s
-The Sound of Music,1965,172 min,"Biography, Drama, Family",8.0,Robert Wise,Julie Andrews,Christopher Plummer,Eleanor Parker,Richard Haydn,205425,1960s
-Doctor Zhivago,1965,197 min,"Drama, Romance, War",8.0,David Lean,Omar Sharif,Julie Christie,Geraldine Chaplin,Rod Steiger,69903,1960s
-Per un pugno di dollari,1964,99 min,"Action, Drama, Western",8.0,Sergio Leone,Clint Eastwood,Gian Maria Volontè,Marianne Koch,Wolfgang Lukschy,198219,1960s
-8½,1963,138 min,Drama,8.0,Federico Fellini,Marcello Mastroianni,Anouk Aimée,Claudia Cardinale,Sandra Milo,108844,1960s
-Vivre sa vie: Film en douze tableaux,1962,80 min,Drama,8.0,Jean-Luc Godard,Anna Karina,Sady Rebbot,André S. Labarthe,Guylaine Schlumberger,28057,1960s
-The Hustler,1961,134 min,"Drama, Sport",8.0,Robert Rossen,Paul Newman,Jackie Gleason,Piper Laurie,George C. Scott,75067,1960s
-La dolce vita,1960,174 min,"Comedy, Drama",8.0,Federico Fellini,Marcello Mastroianni,Anita Ekberg,Anouk Aimée,Yvonne Furneaux,66621,1960s
-Rio Bravo,1959,141 min,"Action, Drama, Western",8.0,Howard Hawks,John Wayne,Dean Martin,Ricky Nelson,Angie Dickinson,56305,1950s
-Anatomy of a Murder,1959,161 min,"Crime, Drama, Mystery",8.0,Otto Preminger,James Stewart,Lee Remick,Ben Gazzara,Arthur O'Connell,59847,1950s
-Touch of Evil,1958,95 min,"Crime, Drama, Film-Noir",8.0,Orson Welles,Charlton Heston,Orson Welles,Janet Leigh,Joseph Calleia,98431,1950s
-Cat on a Hot Tin Roof,1958,108 min,Drama,8.0,Richard Brooks,Elizabeth Taylor,Paul Newman,Burl Ives,Jack Carson,45062,1950s
-Sweet Smell of Success,1957,96 min,"Drama, Film-Noir",8.0,Alexander Mackendrick,Burt Lancaster,Tony Curtis,Susan Harrison,Martin Milner,28137,1950s
-The Killing,1956,84 min,"Crime, Drama, Film-Noir",8.0,Stanley Kubrick,Sterling Hayden,Coleen Gray,Vince Edwards,Jay C. Flippen,81702,1950s
-The Night of the Hunter,1955,92 min,"Crime, Drama, Film-Noir",8.0,Charles Laughton,Robert Mitchum,Shelley Winters,Lillian Gish,James Gleason,81980,1950s
-La Strada,1954,108 min,Drama,8.0,Federico Fellini,Anthony Quinn,Giulietta Masina,Richard Basehart,Aldo Silvani,58314,1950s
-Les diaboliques,1955,117 min,"Crime, Drama, Horror",8.0,Henri-Georges Clouzot,Simone Signoret,Véra Clouzot,Paul Meurisse,Charles Vanel,61503,1950s
-Stalag 17,1953,120 min,"Comedy, Drama, War",8.0,Billy Wilder,William Holden,Don Taylor,Otto Preminger,Robert Strauss,51046,1950s
-Roman Holiday,1953,118 min,"Comedy, Romance",8.0,William Wyler,Gregory Peck,Audrey Hepburn,Eddie Albert,Hartley Power,127256,1950s
-A Streetcar Named Desire,1951,122 min,Drama,8.0,Elia Kazan,Vivien Leigh,Marlon Brando,Kim Hunter,Karl Malden,99182,1950s
-In a Lonely Place,1950,94 min,"Drama, Film-Noir, Mystery",8.0,Nicholas Ray,Humphrey Bogart,Gloria Grahame,Frank Lovejoy,Carl Benton Reid,26784,1950s
-Kind Hearts and Coronets,1949,106 min,"Comedy, Crime",8.0,Robert Hamer,Dennis Price,Alec Guinness,Valerie Hobson,Joan Greenwood,34485,1940s
-Rope,1948,80 min,"Crime, Drama, Mystery",8.0,Alfred Hitchcock,James Stewart,John Dall,Farley Granger,Dick Hogan,129783,1940s
-Out of the Past,1947,97 min,"Crime, Drama, Film-Noir",8.0,Jacques Tourneur,Robert Mitchum,Jane Greer,Kirk Douglas,Rhonda Fleming,32784,1940s
-Brief Encounter,1945,86 min,"Drama, Romance",8.0,David Lean,Celia Johnson,Trevor Howard,Stanley Holloway,Joyce Carey,35601,1940s
-Laura,1944,88 min,"Drama, Film-Noir, Mystery",8.0,Otto Preminger,Gene Tierney,Dana Andrews,Clifton Webb,Vincent Price,42725,1940s
-The Best Years of Our Lives,1946,170 min,"Drama, Romance, War",8.0,William Wyler,Myrna Loy,Dana Andrews,Fredric March,Teresa Wright,57259,1940s
-Arsenic and Old Lace,1942,118 min,"Comedy, Crime, Thriller",8.0,Frank Capra,Cary Grant,Priscilla Lane,Raymond Massey,Jack Carson,65101,1940s
-The Maltese Falcon,1941,100 min,"Film-Noir, Mystery",8.0,John Huston,Humphrey Bogart,Mary Astor,Gladys George,Peter Lorre,148928,1940s
-The Grapes of Wrath,1940,129 min,"Drama, History",8.0,John Ford,Henry Fonda,Jane Darwell,John Carradine,Charley Grapewin,85559,1940s
-The Wizard of Oz,1939,102 min,"Adventure, Family, Fantasy",8.0,Victor Fleming,George Cukor,Mervyn LeRoy,Norman Taurog,Richard Thorpe,371379,1930s
-La règle du jeu,1939,110 min,"Comedy, Drama",8.0,Jean Renoir,Marcel Dalio,Nora Gregor,Paulette Dubost,Mila Parély,26725,1930s
-The Thin Man,1934,91 min,"Comedy, Crime, Mystery",8.0,W.S. Van Dyke,William Powell,Myrna Loy,Maureen O'Sullivan,Nat Pendleton,26642,1930s
-All Quiet on the Western Front,1930,152 min,"Drama, War",8.0,Lewis Milestone,Lew Ayres,Louis Wolheim,John Wray,Arnold Lucy,57318,1930s
-Bronenosets Potemkin,1925,75 min,"Drama, History, Thriller",8.0,Sergei M. Eisenstein,Aleksandr Antonov,Vladimir Barskiy,Grigoriy Aleksandrov,Ivan Bobrov,53054,1920s
+Badhaai ho,2018,124 min,"Comedy, Drama",8,Amit Ravindernath Sharma,Ayushmann Khurrana,Neena Gupta,Gajraj Rao,Sanya Malhotra,27978,2010s
+Togo,2019,113 min,"Adventure, Biography, Drama",8,Ericson Core,Willem Dafoe,Julianne Nicholson,Christopher Heyerdahl,Richard Dormer,37556,2010s
+Airlift,2016,130 min,"Drama, History",8,Raja Menon,Akshay Kumar,Nimrat Kaur,Kumud Mishra,Prakash Belawadi,52897,2010s
+Bajrangi Bhaijaan,2015,163 min,"Action, Adventure, Comedy",8,Kabir Khan,Salman Khan,Harshaali Malhotra,Nawazuddin Siddiqui,Kareena Kapoor,72245,2010s
+Baby,2015,159 min,"Action, Crime, Thriller",8,Neeraj Pandey,Akshay Kumar,Danny Denzongpa,Rana Daggubati,Taapsee Pannu,52848,2010s
+La La Land,2016,128 min,"Comedy, Drama, Music",8,Damien Chazelle,Ryan Gosling,Emma Stone,Rosemarie DeWitt,J.K. Simmons,505918,2010s
+Lion,2016,118 min,"Biography, Drama",8,Garth Davis,Dev Patel,Nicole Kidman,Rooney Mara,Sunny Pawar,213970,2010s
+The Martian,2015,144 min,"Adventure, Drama, Sci-Fi",8,Ridley Scott,Matt Damon,Jessica Chastain,Kristen Wiig,Kate Mara,760094,2010s
+Zootopia,2016,108 min,"Animation, Adventure, Comedy",8,Byron Howard,Rich Moore,Jared Bush,Ginnifer Goodwin,Jason Bateman,434143,2010s
+Bãhubali: The Beginning,2015,159 min,"Action, Drama",8,S.S. Rajamouli,Prabhas,Rana Daggubati,Ramya Krishnan,Sathyaraj,102972,2010s
+Kaguyahime no monogatari,2013,137 min,"Animation, Adventure, Drama",8,Isao Takahata,Chloë Grace Moretz,James Caan,Mary Steenburgen,James Marsden,38746,2010s
+Wonder,2017,113 min,"Drama, Family",8,Stephen Chbosky,Jacob Tremblay,Owen Wilson,Izabela Vidovic,Julia Roberts,141923,2010s
+Gully Boy,2019,154 min,"Drama, Music, Romance",8,Zoya Akhtar,Vijay Varma,Nakul Roshan Sahdev,Ranveer Singh,Vijay Raaz,31886,2010s
+Special Chabbis,2013,144 min,"Crime, Drama, Thriller",8,Neeraj Pandey,Akshay Kumar,Anupam Kher,Manoj Bajpayee,Jimmy Sheirgill,51069,2010s
+Short Term 12,2013,96 min,Drama,8,Destin Daniel Cretton,Brie Larson,Frantz Turner,John Gallagher Jr.,Kaitlyn Dever,81770,2010s
+Serbuan maut 2: Berandal,2014,150 min,"Action, Crime, Thriller",8,Gareth Evans,Iko Uwais,Yayan Ruhian,Arifin Putra,Oka Antara,114316,2010s
+The Imitation Game,2014,114 min,"Biography, Drama, Thriller",8,Morten Tyldum,Benedict Cumberbatch,Keira Knightley,Matthew Goode,Allen Leech,685201,2010s
+Guardians of the Galaxy,2014,121 min,"Action, Adventure, Comedy",8,James Gunn,Chris Pratt,Vin Diesel,Bradley Cooper,Zoe Saldana,1043455,2010s
+Blade Runner 2049,2017,164 min,"Action, Drama, Mystery",8,Denis Villeneuve,Harrison Ford,Ryan Gosling,Ana de Armas,Dave Bautista,461823,2010s
+Her,2013,126 min,"Drama, Romance, Sci-Fi",8,Spike Jonze,Joaquin Phoenix,Amy Adams,Scarlett Johansson,Rooney Mara,540772,2010s
+Bohemian Rhapsody,2018,134 min,"Biography, Drama, Music",8,Bryan Singer,Rami Malek,Lucy Boynton,Gwilym Lee,Ben Hardy,450349,2010s
+The Revenant,2015,156 min,"Action, Adventure, Drama",8,Alejandro G. Iñárritu,Leonardo DiCaprio,Tom Hardy,Will Poulter,Domhnall Gleeson,705589,2010s
+The Perks of Being a Wallflower,2012,103 min,"Drama, Romance",8,Stephen Chbosky,Logan Lerman,Emma Watson,Ezra Miller,Paul Rudd,462252,2010s
+Tropa de Elite 2: O Inimigo Agora é Outro,2010,115 min,"Action, Crime, Drama",8,José Padilha,Wagner Moura,Irandhir Santos,André Ramiro,Milhem Cortaz,79200,2010s
+The King's Speech,2010,118 min,"Biography, Drama, History",8,Tom Hooper,Colin Firth,Geoffrey Rush,Helena Bonham Carter,Derek Jacobi,639603,2010s
+The Help,2011,146 min,Drama,8,Tate Taylor,Emma Stone,Viola Davis,Octavia Spencer,Bryce Dallas Howard,428521,2010s
+Deadpool,2016,108 min,"Action, Adventure, Comedy",8,Tim Miller,Ryan Reynolds,Morena Baccarin,T.J. Miller,Ed Skrein,902669,2010s
+Darbareye Elly,2009,119 min,"Drama, Mystery",8,Asghar Farhadi,Golshifteh Farahani,Shahab Hosseini,Taraneh Alidoosti,Merila Zare'i,45803,2000s
+Dev.D,2009,144 min,"Drama, Romance",8,Anurag Kashyap,Abhay Deol,Mahie Gill,Kalki Koechlin,Dibyendu Bhattacharya,28749,2000s
+Yip Man,2008,106 min,"Action, Biography, Drama",8,Wilson Yip,Donnie Yen,Simon Yam,Siu-Wong Fan,Ka Tung Lam,211427,2000s
+My Name Is Khan,2010,165 min,Drama,8,Karan Johar,Shah Rukh Khan,Kajol,Sheetal Menon,Katie A. Keane,98575,2010s
+Nefes: Vatan Sagolsun,2009,128 min,"Action, Drama, Thriller",8,Levent Semerci,Erdem Can,Mete Horozoglu,Ilker Kizmaz,Baris Bagci,31838,2000s
+Slumdog Millionaire,2008,120 min,"Drama, Romance",8,Danny Boyle,Loveleen Tandan,Dev Patel,Freida Pinto,Saurabh Shukla,798882,2000s
+Black Swan,2010,108 min,"Drama, Thriller",8,Darren Aronofsky,Natalie Portman,Mila Kunis,Vincent Cassel,Winona Ryder,699673,2010s
+Tropa de Elite,2007,115 min,"Action, Crime, Drama",8,José Padilha,Wagner Moura,André Ramiro,Caio Junqueira,Milhem Cortaz,98097,2000s
+The Avengers,2012,143 min,"Action, Adventure, Sci-Fi",8,Joss Whedon,Robert Downey Jr.,Chris Evans,Scarlett Johansson,Jeremy Renner,1260806,2010s
+Persepolis,2007,96 min,"Animation, Biography, Drama",8,Vincent Paronnaud,Marjane Satrapi,Chiara Mastroianni,Catherine Deneuve,Gena Rowlands,88656,2000s
+Dallas Buyers Club,2013,117 min,"Biography, Drama",8,Jean-Marc Vallée,Matthew McConaughey,Jennifer Garner,Jared Leto,Steve Zahn,441614,2010s
+The Pursuit of Happyness,2006,117 min,"Biography, Drama",8,Gabriele Muccino,Will Smith,Thandie Newton,Jaden Smith,Brian Howe,448930,2000s
+Blood Diamond,2006,143 min,"Adventure, Drama, Thriller",8,Edward Zwick,Leonardo DiCaprio,Djimon Hounsou,Jennifer Connelly,Kagiso Kuypers,499439,2000s
+The Bourne Ultimatum,2007,115 min,"Action, Mystery, Thriller",8,Paul Greengrass,Matt Damon,Edgar Ramírez,Joan Allen,Julia Stiles,604694,2000s
+Bin-jip,2004,88 min,"Crime, Drama, Romance",8,Ki-duk Kim,Seung-Yun Lee,Hee Jae,Hyuk-ho Kwon,Jin-mo Joo,50610,2000s
+Sin City,2005,124 min,"Crime, Thriller",8,Frank Miller,Quentin Tarantino,Robert Rodriguez,Mickey Rourke,Clive Owen,738512,2000s
+Le scaphandre et le papillon,2007,112 min,"Biography, Drama",8,Julian Schnabel,Laura Obiols,Mathieu Amalric,Emmanuelle Seigner,Marie-Josée Croze,103284,2000s
+G.O.R.A.,2004,127 min,"Adventure, Comedy, Sci-Fi",8,Ömer Faruk Sorak,Cem Yilmaz,Özge Özberk,Ozan Güven,Safak Sezer,56960,2000s
+Ratatouille,2007,111 min,"Animation, Adventure, Comedy",8,Brad Bird,Jan Pinkava,Brad Garrett,Lou Romano,Patton Oswalt,641645,2000s
+Casino Royale,2006,144 min,"Action, Adventure, Thriller",8,Martin Campbell,Daniel Craig,Eva Green,Judi Dench,Jeffrey Wright,582239,2000s
+Kill Bill: Vol. 2,2004,137 min,"Action, Crime, Thriller",8,Quentin Tarantino,Uma Thurman,David Carradine,Michael Madsen,Daryl Hannah,683900,2000s
+Vozvrashchenie,2003,110 min,Drama,8,Andrey Zvyagintsev,Vladimir Garin,Ivan Dobronravov,Konstantin Lavronenko,Nataliya Vdovina,42399,2000s
+Bom Yeoareum Gaeul Gyeoul Geurigo Bom,2003,103 min,"Drama, Romance",8,Ki-duk Kim,Ki-duk Kim,Yeong-su Oh,Jong-ho Kim,Kim Young-Min,77520,2000s
+Mar adentro,2014,126 min,"Biography, Drama",8,Alejandro Amenábar,Javier Bardem,Belén Rueda,Lola Dueñas,Mabel Rivera,77554,2010s
+Cinderella Man,2005,144 min,"Biography, Drama, History",8,Ron Howard,Russell Crowe,Renée Zellweger,Craig Bierko,Paul Giamatti,176151,2000s
+Kal Ho Naa Ho,2003,186 min,"Comedy, Drama, Musical",8,Nikkhil Advani,Preity Zinta,Shah Rukh Khan,Saif Ali Khan,Jaya Bachchan,63460,2000s
+Mou gaan dou,2002,101 min,"Action, Crime, Drama",8,Andrew Lau,Alan Mak,Andy Lau,Tony Chiu-Wai Leung,Anthony Chau-Sang Wong,117857,2000s
+Pirates of the Caribbean: The Curse of the Black Pearl,2003,143 min,"Action, Adventure, Fantasy",8,Gore Verbinski,Johnny Depp,Geoffrey Rush,Orlando Bloom,Keira Knightley,1015122,2000s
+Big Fish,2003,125 min,"Adventure, Drama, Fantasy",8,Tim Burton,Ewan McGregor,Albert Finney,Billy Crudup,Jessica Lange,415218,2000s
+The Incredibles,2004,115 min,"Animation, Action, Adventure",8,Brad Bird,Craig T. Nelson,Samuel L. Jackson,Holly Hunter,Jason Lee,657047,2000s
+Yeopgijeogin geunyeo,2001,137 min,"Comedy, Drama, Romance",8,Jae-young Kwak,Tae-Hyun Cha,Jun Ji-Hyun,In-mun Kim,Song Wok-suk,45403,2000s
+Dogville,2003,178 min,"Crime, Drama",8,Lars von Trier,Nicole Kidman,Paul Bettany,Lauren Bacall,Harriet Andersson,137963,2000s
+Vizontele,2001,110 min,"Comedy, Drama",8,Yilmaz Erdogan,Ömer Faruk Sorak,Yilmaz Erdogan,Demet Akbag,Altan Erkekli,33592,2000s
+Donnie Darko,2001,113 min,"Drama, Mystery, Sci-Fi",8,Richard Kelly,Jake Gyllenhaal,Jena Malone,Mary McDonnell,Holmes Osborne,740086,2000s
+Magnolia,1999,188 min,Drama,8,Paul Thomas Anderson,Tom Cruise,Jason Robards,Julianne Moore,Philip Seymour Hoffman,289742,1990s
+Dancer in the Dark,2000,140 min,"Crime, Drama, Musical",8,Lars von Trier,Björk,Catherine Deneuve,David Morse,Peter Stormare,102285,2000s
+The Straight Story,1999,112 min,"Biography, Drama",8,David Lynch,Richard Farnsworth,Sissy Spacek,Jane Galloway Heitz,Joseph A. Carpenter,82002,1990s
+Pâfekuto burû,1997,81 min,"Animation, Crime, Mystery",8,Satoshi Kon,Junko Iwao,Rica Matsumoto,Shinpachi Tsuji,Masaaki Ôkura,58192,1990s
+Festen,1998,105 min,Drama,8,Thomas Vinterberg,Ulrich Thomsen,Henning Moritzen,Thomas Bo Larsen,Paprika Steen,78341,1990s
+Central do Brasil,1998,110 min,Drama,8,Walter Salles,Fernanda Montenegro,Vinícius de Oliveira,Marília Pêra,Soia Lira,36419,1990s
+The Iron Giant,1999,86 min,"Animation, Action, Adventure",8,Brad Bird,Eli Marienthal,Harry Connick Jr.,Jennifer Aniston,Vin Diesel,172083,1990s
+Knockin' on Heaven's Door,1997,87 min,"Action, Crime, Comedy",8,Thomas Jahn,Til Schweiger,Jan Josef Liefers,Thierry van Werveke,Moritz Bleibtreu,27721,1990s
+Sling Blade,1996,135 min,Drama,8,Billy Bob Thornton,Billy Bob Thornton,Dwight Yoakam,J.T. Walsh,John Ritter,86838,1990s
+Secrets & Lies,1996,136 min,"Comedy, Drama",8,Mike Leigh,Timothy Spall,Brenda Blethyn,Phyllis Logan,Claire Rushbrook,37564,1990s
+Twelve Monkeys,1995,129 min,"Mystery, Sci-Fi, Thriller",8,Terry Gilliam,Bruce Willis,Madeleine Stowe,Brad Pitt,Joseph Melito,578443,1990s
+Kôkaku Kidôtai,1995,83 min,"Animation, Action, Crime",8,Mamoru Oshii,Atsuko Tanaka,Iemasa Kayumi,Akio Ôtsuka,Kôichi Yamadera,129231,1990s
+The Nightmare Before Christmas,1993,76 min,"Animation, Family, Fantasy",8,Henry Selick,Danny Elfman,Chris Sarandon,Catherine O'Hara,William Hickey,300208,1990s
+Groundhog Day,1993,101 min,"Comedy, Fantasy, Romance",8,Harold Ramis,Bill Murray,Andie MacDowell,Chris Elliott,Stephen Tobolowsky,577991,1990s
+Bound by Honor,1993,180 min,"Crime, Drama",8,Taylor Hackford,Damian Chapa,Jesse Borrego,Benjamin Bratt,Enrique Castillo,28825,1990s
+Scent of a Woman,1992,156 min,Drama,8,Martin Brest,Al Pacino,Chris O'Donnell,James Rebhorn,Gabrielle Anwar,263918,1990s
+Aladdin,1992,90 min,"Animation, Adventure, Comedy",8,Ron Clements,John Musker,Scott Weinger,Robin Williams,Linda Larkin,373845,1990s
+JFK,1991,189 min,"Drama, History, Thriller",8,Oliver Stone,Kevin Costner,Gary Oldman,Jack Lemmon,Walter Matthau,142110,1990s
+Beauty and the Beast,1991,84 min,"Animation, Family, Fantasy",8,Gary Trousdale,Kirk Wise,Paige O'Hara,Robby Benson,Jesse Corti,417178,1990s
+Dances with Wolves,1990,181 min,"Adventure, Drama, Western",8,Kevin Costner,Kevin Costner,Mary McDonnell,Graham Greene,Rodney A. Grant,240266,1990s
+Do the Right Thing,1989,120 min,"Comedy, Drama",8,Spike Lee,Danny Aiello,Ossie Davis,Ruby Dee,Richard Edson,89429,1980s
+Rain Man,1988,133 min,Drama,8,Barry Levinson,Dustin Hoffman,Tom Cruise,Valeria Golino,Gerald R. Molen,473064,1980s
+Akira,1988,124 min,"Animation, Action, Sci-Fi",8,Katsuhiro Ôtomo,Mitsuo Iwata,Nozomu Sasaki,Mami Koyama,Tesshô Genda,164918,1980s
+The Princess Bride,1987,98 min,"Adventure, Family, Fantasy",8,Rob Reiner,Cary Elwes,Mandy Patinkin,Robin Wright,Chris Sarandon,393899,1980s
+Der Himmel über Berlin,1987,128 min,"Drama, Fantasy, Romance",8,Wim Wenders,Bruno Ganz,Solveig Dommartin,Otto Sander,Curt Bois,64722,1980s
+Au revoir les enfants,1987,104 min,"Drama, War",8,Louis Malle,Gaspard Manesse,Raphael Fejtö,Francine Racette,Stanislas Carré de Malberg,31163,1980s
+Tenkû no shiro Rapyuta,1986,125 min,"Animation, Adventure, Drama",8,Hayao Miyazaki,Mayumi Tanaka,Keiko Yokozawa,Kotoe Hatsui,Minori Terada,150140,1980s
+The Terminator,1984,107 min,"Action, Sci-Fi",8,James Cameron,Arnold Schwarzenegger,Linda Hamilton,Michael Biehn,Paul Winfield,799795,1980s
+Gandhi,1982,191 min,"Biography, Drama, History",8,Richard Attenborough,Ben Kingsley,John Gielgud,Rohini Hattangadi,Roshan Seth,217664,1980s
+Kagemusha,1980,180 min,"Drama, History, War",8,Akira Kurosawa,Tatsuya Nakadai,Tsutomu Yamazaki,Ken'ichi Hagiwara,Jinpachi Nezu,32195,1980s
+Being There,1979,130 min,"Comedy, Drama",8,Hal Ashby,Peter Sellers,Shirley MacLaine,Melvyn Douglas,Jack Warden,65625,1970s
+Annie Hall,1977,93 min,"Comedy, Romance",8,Woody Allen,Woody Allen,Diane Keaton,Tony Roberts,Carol Kane,251823,1970s
+Jaws,1975,124 min,"Adventure, Thriller",8,Steven Spielberg,Roy Scheider,Robert Shaw,Richard Dreyfuss,Lorraine Gary,543388,1970s
+Dog Day Afternoon,1975,125 min,"Biography, Crime, Drama",8,Sidney Lumet,Al Pacino,John Cazale,Penelope Allen,Sully Boyar,235652,1970s
+Young Frankenstein,1974,106 min,Comedy,8,Mel Brooks,Gene Wilder,Madeline Kahn,Marty Feldman,Peter Boyle,143359,1970s
+Papillon,1973,151 min,"Biography, Crime, Drama",8,Franklin J. Schaffner,Steve McQueen,Dustin Hoffman,Victor Jory,Don Gordon,121627,1970s
+The Exorcist,1973,122 min,Horror,8,William Friedkin,Ellen Burstyn,Max von Sydow,Linda Blair,Lee J. Cobb,362393,1970s
+Sleuth,1972,138 min,"Mystery, Thriller",8,Joseph L. Mankiewicz,Laurence Olivier,Michael Caine,Alec Cawthorne,John Matthews,44748,1970s
+The Last Picture Show,1971,118 min,"Drama, Romance",8,Peter Bogdanovich,Timothy Bottoms,Jeff Bridges,Cybill Shepherd,Ben Johnson,42456,1970s
+Fiddler on the Roof,1971,181 min,"Drama, Family, Musical",8,Norman Jewison,Topol,Norma Crane,Leonard Frey,Molly Picon,39491,1970s
+Il conformista,1970,113 min,Drama,8,Bernardo Bertolucci,Jean-Louis Trintignant,Stefania Sandrelli,Gastone Moschin,Enzo Tarascio,27067,1970s
+Butch Cassidy and the Sundance Kid,1969,110 min,"Biography, Crime, Drama",8,George Roy Hill,Paul Newman,Robert Redford,Katharine Ross,Strother Martin,201888,1960s
+Rosemary's Baby,1968,137 min,"Drama, Horror",8,Roman Polanski,Mia Farrow,John Cassavetes,Ruth Gordon,Sidney Blackmer,193674,1960s
+Planet of the Apes,1968,112 min,"Adventure, Sci-Fi",8,Franklin J. Schaffner,Charlton Heston,Roddy McDowall,Kim Hunter,Maurice Evans,165167,1960s
+The Graduate,1967,106 min,"Comedy, Drama, Romance",8,Mike Nichols,Dustin Hoffman,Anne Bancroft,Katharine Ross,William Daniels,253676,1960s
+Who's Afraid of Virginia Woolf?,1966,131 min,Drama,8,Mike Nichols,Elizabeth Taylor,Richard Burton,George Segal,Sandy Dennis,68926,1960s
+The Sound of Music,1965,172 min,"Biography, Drama, Family",8,Robert Wise,Julie Andrews,Christopher Plummer,Eleanor Parker,Richard Haydn,205425,1960s
+Doctor Zhivago,1965,197 min,"Drama, Romance, War",8,David Lean,Omar Sharif,Julie Christie,Geraldine Chaplin,Rod Steiger,69903,1960s
+Per un pugno di dollari,1964,99 min,"Action, Drama, Western",8,Sergio Leone,Clint Eastwood,Gian Maria Volontè,Marianne Koch,Wolfgang Lukschy,198219,1960s
+8½,1963,138 min,Drama,8,Federico Fellini,Marcello Mastroianni,Anouk Aimée,Claudia Cardinale,Sandra Milo,108844,1960s
+Vivre sa vie: Film en douze tableaux,1962,80 min,Drama,8,Jean-Luc Godard,Anna Karina,Sady Rebbot,André S. Labarthe,Guylaine Schlumberger,28057,1960s
+The Hustler,1961,134 min,"Drama, Sport",8,Robert Rossen,Paul Newman,Jackie Gleason,Piper Laurie,George C. Scott,75067,1960s
+La dolce vita,1960,174 min,"Comedy, Drama",8,Federico Fellini,Marcello Mastroianni,Anita Ekberg,Anouk Aimée,Yvonne Furneaux,66621,1960s
+Rio Bravo,1959,141 min,"Action, Drama, Western",8,Howard Hawks,John Wayne,Dean Martin,Ricky Nelson,Angie Dickinson,56305,1950s
+Anatomy of a Murder,1959,161 min,"Crime, Drama, Mystery",8,Otto Preminger,James Stewart,Lee Remick,Ben Gazzara,Arthur O'Connell,59847,1950s
+Touch of Evil,1958,95 min,"Crime, Drama, Film-Noir",8,Orson Welles,Charlton Heston,Orson Welles,Janet Leigh,Joseph Calleia,98431,1950s
+Cat on a Hot Tin Roof,1958,108 min,Drama,8,Richard Brooks,Elizabeth Taylor,Paul Newman,Burl Ives,Jack Carson,45062,1950s
+Sweet Smell of Success,1957,96 min,"Drama, Film-Noir",8,Alexander Mackendrick,Burt Lancaster,Tony Curtis,Susan Harrison,Martin Milner,28137,1950s
+The Killing,1956,84 min,"Crime, Drama, Film-Noir",8,Stanley Kubrick,Sterling Hayden,Coleen Gray,Vince Edwards,Jay C. Flippen,81702,1950s
+The Night of the Hunter,1955,92 min,"Crime, Drama, Film-Noir",8,Charles Laughton,Robert Mitchum,Shelley Winters,Lillian Gish,James Gleason,81980,1950s
+La Strada,1954,108 min,Drama,8,Federico Fellini,Anthony Quinn,Giulietta Masina,Richard Basehart,Aldo Silvani,58314,1950s
+Les diaboliques,1955,117 min,"Crime, Drama, Horror",8,Henri-Georges Clouzot,Simone Signoret,Véra Clouzot,Paul Meurisse,Charles Vanel,61503,1950s
+Stalag 17,1953,120 min,"Comedy, Drama, War",8,Billy Wilder,William Holden,Don Taylor,Otto Preminger,Robert Strauss,51046,1950s
+Roman Holiday,1953,118 min,"Comedy, Romance",8,William Wyler,Gregory Peck,Audrey Hepburn,Eddie Albert,Hartley Power,127256,1950s
+A Streetcar Named Desire,1951,122 min,Drama,8,Elia Kazan,Vivien Leigh,Marlon Brando,Kim Hunter,Karl Malden,99182,1950s
+In a Lonely Place,1950,94 min,"Drama, Film-Noir, Mystery",8,Nicholas Ray,Humphrey Bogart,Gloria Grahame,Frank Lovejoy,Carl Benton Reid,26784,1950s
+Kind Hearts and Coronets,1949,106 min,"Comedy, Crime",8,Robert Hamer,Dennis Price,Alec Guinness,Valerie Hobson,Joan Greenwood,34485,1940s
+Rope,1948,80 min,"Crime, Drama, Mystery",8,Alfred Hitchcock,James Stewart,John Dall,Farley Granger,Dick Hogan,129783,1940s
+Out of the Past,1947,97 min,"Crime, Drama, Film-Noir",8,Jacques Tourneur,Robert Mitchum,Jane Greer,Kirk Douglas,Rhonda Fleming,32784,1940s
+Brief Encounter,1945,86 min,"Drama, Romance",8,David Lean,Celia Johnson,Trevor Howard,Stanley Holloway,Joyce Carey,35601,1940s
+Laura,1944,88 min,"Drama, Film-Noir, Mystery",8,Otto Preminger,Gene Tierney,Dana Andrews,Clifton Webb,Vincent Price,42725,1940s
+The Best Years of Our Lives,1946,170 min,"Drama, Romance, War",8,William Wyler,Myrna Loy,Dana Andrews,Fredric March,Teresa Wright,57259,1940s
+Arsenic and Old Lace,1942,118 min,"Comedy, Crime, Thriller",8,Frank Capra,Cary Grant,Priscilla Lane,Raymond Massey,Jack Carson,65101,1940s
+The Maltese Falcon,1941,100 min,"Film-Noir, Mystery",8,John Huston,Humphrey Bogart,Mary Astor,Gladys George,Peter Lorre,148928,1940s
+The Grapes of Wrath,1940,129 min,"Drama, History",8,John Ford,Henry Fonda,Jane Darwell,John Carradine,Charley Grapewin,85559,1940s
+The Wizard of Oz,1939,102 min,"Adventure, Family, Fantasy",8,Victor Fleming,George Cukor,Mervyn LeRoy,Norman Taurog,Richard Thorpe,371379,1930s
+La règle du jeu,1939,110 min,"Comedy, Drama",8,Jean Renoir,Marcel Dalio,Nora Gregor,Paulette Dubost,Mila Parély,26725,1930s
+The Thin Man,1934,91 min,"Comedy, Crime, Mystery",8,W.S. Van Dyke,William Powell,Myrna Loy,Maureen O'Sullivan,Nat Pendleton,26642,1930s
+All Quiet on the Western Front,1930,152 min,"Drama, War",8,Lewis Milestone,Lew Ayres,Louis Wolheim,John Wray,Arnold Lucy,57318,1930s
+Bronenosets Potemkin,1925,75 min,"Drama, History, Thriller",8,Sergei M. Eisenstein,Aleksandr Antonov,Vladimir Barskiy,Grigoriy Aleksandrov,Ivan Bobrov,53054,1920s
 Knives Out,2019,130 min,"Comedy, Crime, Drama",7.9,Rian Johnson,Daniel Craig,Chris Evans,Ana de Armas,Jamie Lee Curtis,454203,2010s
 Dil Bechara,2020,101 min,"Comedy, Drama, Romance",7.9,Mukesh Chhabra,Sushant Singh Rajput,Sanjana Sanghi,Sahil Vaid,Saswata Chatterjee,111478,2020
 Manbiki kazoku,2018,121 min,"Crime, Drama",7.9,Hirokazu Koreeda,Lily Franky,Sakura Andô,Kirin Kiki,Mayu Matsuoka,62754,2010s
