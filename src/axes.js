@@ -16,7 +16,7 @@ function XAxis (props) {
                     </text>
                 </g>
             )}
-            <text style={{ textAnchor:'end', fontSize:'15px'}} transform={`translate(${width}, ${height-10})`}>
+            <text style={{ textAnchor:'end', fontSize:'13px'}} transform={`translate(${width}, ${height-10})`}>
                 {axisLabel}
             </text>
         </g>
@@ -35,7 +35,7 @@ function YAxis(props) {
                 </text>
             </g>
         )}
-    <text style={{ textAnchor:'end', fontSize:'15px'}} transform={`translate(20, 0)rotate(-90)`}>
+    <text style={{ textAnchor:'end', fontSize:'13px'}} transform={`translate(20, 0)rotate(-90)`}>
         {axisLabel}
     </text> 
     </g>

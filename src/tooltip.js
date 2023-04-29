@@ -21,13 +21,12 @@ export function Tooltip(props) {
             top: `${top}px`
         };
         return <div style={divStyle} >
-            {/* <p>{d.station}</p>
-            <p>Trip durations:</p>
+            <p>{d.Series_Title}</p>
+            <p>director: {d.Director}</p>
             <ul> 
-            <li>End in: {d.tripdurationE}</li>
-            <li>Start from: {d.tripdurationS}</li>
-            </ul> */}
-            <p>helloworld</p>
+            <li>release year: {d.Released_Year}</li>
+            <li>rating: {d.IMDB_Rating}</li>
+            </ul>
             </div>
     };  
 }
