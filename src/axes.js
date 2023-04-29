@@ -29,7 +29,7 @@ function XAxis (props) {
             {xScale.domain().map(tickValue =>
                 <g key={tickValue+'B'} transform={`translate(${xScale(tickValue)}, 0)`}>
                     <line y2={height} />
-                    <text style={{textAnchor: 'start', fontSize:'6px' }} y={height+3} transform={`rotate(70, 0, ${height+5})`}>
+                    <text style={{textAnchor: 'start', fontSize:'7px' }} y={height+3} transform={`rotate(70, 0, ${height+5})`}>
                         {tickValue}
                     </text>
                 </g>
@@ -45,12 +45,12 @@ function YAxis(props) {
         {yScale.ticks().map(tickValue => 
             <g key={tickValue} transform={`translate(-10, ${yScale(tickValue)})`}>
                 <line x2={10} stroke='black' />
-                <text style={{ textAnchor:'end', fontSize:'6px' }} >
+                <text style={{ textAnchor:'end', fontSize:'10px' }} >
                     {tickValue}
                 </text>
             </g>
         )}
-    <text style={{ textAnchor:'end', fontSize:'13px'}} transform={`translate(20, 0)rotate(-90)`}>
+    <text style={{ textAnchor:'end', fontSize:'13px'}} transform={`translate(80, -10)rotate(0)`}>
         {axisLabel}
     </text> 
     </g>

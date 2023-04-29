@@ -18,6 +18,7 @@ function useData(csvPath){
                 d.IMDB_Rating = +d.IMDB_Rating;
                 d.revenue = +d.revenue;
                 d.budget = +d.budget;
+                d.justified_revenue = +d.justified_revenue;
             });
             setData(data);
         });
@@ -70,7 +71,7 @@ function Charts () {
             </div>
             <div className='col-lg-6'>
                 <svg width={'100%'} viewBox={`0 0 ${SVG_WIDTH} ${SVG_HEIGHT}`}>
-                <BarChart offsetX={margin.left-5} offsetY={margin.top} height={height} width={width} data={data}/>
+                <BarChart offsetX={margin.left-10} offsetY={margin.top} height={height} width={width} data={data} selectedStation={selectedStation} setSelectedStation={setSelectedStation}/>
                 </svg>
             </div>
         </div>
