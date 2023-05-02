@@ -6,6 +6,9 @@ import { BarChart } from './barchart';
 import { Tooltip } from "./tooltip";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+//text encoder
+// var encoder = new TextEncoder();
+
 //url
 const csvUrl = "https://raw.githubusercontent.com/xxt9876543210/iv-project/master/data/cleaned_joint.csv"
 //function for loading the data
@@ -19,6 +22,7 @@ function useData(csvPath){
                 d.revenue = +d.revenue;
                 d.budget = +d.budget;
                 d.justified_revenue = +d.justified_revenue;
+                // d.Series_Title = decodeURIComponent(encodeURIComponent(d.Series_Title));
             });
             setData(data);
         });
