@@ -75,6 +75,16 @@ function Charts () {
                 </svg>
             </div>
         </div>
+        <div className='row'>
+            <div className='col-lg-6'>
+                <svg width={'100%'} viewBox={`0 0 ${SVG_WIDTH} ${SVG_HEIGHT}`}>
+                </svg>
+            </div>
+            <div className='col-lg-6'>
+                <svg width={'100%'} viewBox={`0 0 ${SVG_WIDTH} ${SVG_HEIGHT}`}>
+                </svg>
+            </div>
+        </div>
     </div> 
 }
 
