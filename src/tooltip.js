@@ -13,7 +13,7 @@ export function Tooltip(props) {
             height: "120px",
             padding: "2px",
             font: "12px sans-serif",
-            background: "lightgreen",
+            background: "white",
             border: "0px",
             borderRadius: "8px",
             pointerEvents: "none",
