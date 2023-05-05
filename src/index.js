@@ -5,6 +5,7 @@ import { ScatterPlot } from './scatterplot';
 import { BarChart } from './barchart';
 import { Tooltip } from "./tooltip";
 import { CreateGraph } from "./nodechart";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //text encoder
@@ -14,71 +15,32 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // const csvUrl = "https://raw.githubusercontent.com/xxt9876543210/iv-project/master/data/cleaned_joint.csv"
 // const csvUrl = "https://raw.githubusercontent.com/xxt9876543210/iv-project/master/data/TEST.csv"
 const csvUrl = "https://raw.githubusercontent.com/TheTarr/data/main/one_genera.csv"
-const csvUrl2 = "https://raw.githubusercontent.com/xxt9876543210/iv-project/master/data/genre_use.csv"
-
-//function for loading the data
-// function useData(csvPath) {
-//   const [dataAll, setData] = React.useState(null);
-//   React.useEffect(() => {
-//     csv(csvPath).then(data => {
-//       data.forEach(d => {
-//         d.Released_Year = +d.Released_Year;
-//         d.IMDB_Rating = +d.IMDB_Rating;
-//         d.revenue = +d.revenue;
-//         // d.Genre = +d.Genre;
-//         d.budget = +d.budget;
-//         d.justified_revenue = +d.justified_revenue;
-//         d.Series_Title = decodeURIComponent(encodeURIComponent(d.Series_Title));
-//       });
-//       setData(data);
-//     });
-//   }, []);
-//   return dataAll;
-// };
+const csvUrl2 = "https://raw.githubusercontent.com/TheTarr/data/main/genre_use.csv"
 
 //new
 function useData(csvPath1, csvPath2) {
-  const [dataAll, setData1] = React.useState(null);
-  const [dataAll2, setData2] = React.useState(null);
+  const [dataAll, setData] = React.useState(null);
+  // const [dataAll2, setData2] = React.useState(null);
 
   React.useEffect(() => {
     csv(csvPath1).then(data => {
       data.forEach(d => {
         d.Released_Year = +d.Released_Year;
+        // d.Genre = +d.Genre;
         d.IMDB_Rating = +d.IMDB_Rating;
         d.revenue = +d.revenue;
         d.budget = +d.budget;
         d.justified_revenue = +d.justified_revenue;
         d.Series_Title = decodeURIComponent(encodeURIComponent(d.Series_Title));
       });
-      setData1(data);
-    });
-
-    csv(csvPath2).then(data => {
-      data.forEach(d => {
-        // do any necessary data cleaning or conversion here
-        d.Released_Year = +d.Released_Year;
-      });
-      setData2(data);
+      setData(data);
     });
   }, []);
 
-  return { dataAll, dataAll2 };
+  // return { dataAll, dataAll2 };
+  return { dataAll };
 }
 ///
-
-
-
-
-// function useData2(csvPath2) {
-//   const [dataAll2, setData] = React.useState(1);
-//   React.useEffect(() => {
-//     csv(csvPath2).then(data => {
-//       setData(data);
-//     });
-//   }, []);
-//   return dataAll2;
-// };
 
 
 // heatmap
@@ -108,14 +70,7 @@ function Heatmap({ data, offsetX, offsetY, width, height }) {
   const heatmapData = getHeatmapData(data);
 
   const years = Object.keys(heatmapData).map(Number);
-  const genres = new Set();
-
-  // Collect all genres
-  Object.values(heatmapData).forEach((values) => {
-    Object.keys(values).forEach((genre) => {
-      genres.add(genre);
-    });
-  });
+  const genres = ['Action', 'Adventure', 'Biography', 'Comedy', 'Crime', 'Drama', 'Family'];
 
   const colorScale = d3
     .scaleSequential()
@@ -123,12 +78,15 @@ function Heatmap({ data, offsetX, offsetY, width, height }) {
     .interpolator(d3.interpolateBlues);
 
   const xScale = d3.scaleBand().domain(years).range([0, width]);
-  const yScale = d3.scaleBand().domain([...genres]).range([height, 0]);
+  const yScale = d3.scaleBand().domain(genres).range([height, 0]);
+
+  const xAxis = d3.axisBottom(xScale).tickValues(years.filter(year => year % 10 === 0)).tickFormat(d3.format("d"));
+  const yAxis = d3.axisLeft(yScale);
 
   return (
     <g transform={`translate(${offsetX}, ${offsetY})`}>
       {years.map((year) =>
-        [...genres].map((genre) => {
+        genres.map((genre) => {
           const value = heatmapData[year]?.[genre] ?? 0;
           return (
             <rect
@@ -142,23 +100,26 @@ function Heatmap({ data, offsetX, offsetY, width, height }) {
           );
         })
       )}
+      <g transform={`translate(0, ${height})`} ref={node => d3.select(node).call(xAxis).selectAll("text").style("fill", "white")} />
+      <g ref={node => d3.select(node).call(yAxis).selectAll("text").style("fill", "white")} />
       <g transform={`translate(-${offsetX}, -${offsetY})`}>
         <g transform={`translate(${offsetX - 10}, ${offsetY + height + 40})`}>
-          <text x={width / 2} y={-10} textAnchor="middle" fill="white">
+          <text x={width / 2} y={-5} textAnchor="middle" fill="white">
             Released Year
           </text>
         </g>
-        {/* <g transform={`translate(${offsetX - 10}, ${offsetY - 100}) rotate(-90)`}>
-          <text y={0} x={-height / 2} textAnchor="start" fill = "white"> */}
-        <g transform={`translate(${offsetX - 10}, ${offsetY})`}>
-          <text x={-10} y={-10} textAnchor="start" fill="white">
+        <g transform={`translate(${offsetX - 50}, ${offsetY + height / 2}) rotate(0)`}>
+          <text y={-155} x={30} textAnchor="middle" fill="white">
             Genre
           </text>
         </g>
+        <g className="y-axis" />
+
       </g>
     </g>
   );
 }
+
 
 // function Heatmap({ data, offsetX, offsetY, width, height }) {
 //   const heatmapData = getHeatmapData(data);
@@ -178,8 +139,8 @@ function Heatmap({ data, offsetX, offsetY, width, height }) {
 //     .domain([0, d3.max(Object.values(heatmapData).map(Object.values).flat())])
 //     .interpolator(d3.interpolateBlues);
 
-//   const xScale = d3.scaleBand().domain(years).range([0, width]).padding(0.1);
-//   const yScale = d3.scaleBand().domain([...genres]).range([height, 0]).padding(0.1);
+//   const xScale = d3.scaleBand().domain(years).range([0, width]);
+//   const yScale = d3.scaleBand().domain([...genres]).range([height, 0]);
 
 //   return (
 //     <g transform={`translate(${offsetX}, ${offsetY})`}>
@@ -199,38 +160,24 @@ function Heatmap({ data, offsetX, offsetY, width, height }) {
 //         })
 //       )}
 //       <g transform={`translate(-${offsetX}, -${offsetY})`}>
-//         <g transform={`translate(${offsetX}, ${offsetY + height})`}>
-//           <text x={width / 2} y={35} textAnchor="middle">
+//         <g transform={`translate(${offsetX - 10}, ${offsetY + height + 40})`}>
+//           <text x={width / 2} y={-10} textAnchor="middle" fill="white">
 //             Released Year
 //           </text>
-//           <g transform={`translate(0, 10)`}>
-//             <Axis scale={xScale} orientation="bottom" />
-//           </g>
 //         </g>
-//         <g transform={`translate(${offsetX - 40}, ${offsetY})`}>
-//           <text y={-40} x={-height / 2} textAnchor="middle" transform="rotate(-90)">
+//         {/* <g transform={`translate(${offsetX - 10}, ${offsetY - 100}) rotate(-90)`}>
+//           <text y={0} x={-height / 2} textAnchor="start" fill = "white"> */}
+//         <g transform={`translate(${offsetX - 10}, ${offsetY})`}>
+//           <text x={-10} y={-10} textAnchor="start" fill="white">
 //             Genre
 //           </text>
-//           <g transform={`translate(-10, 0)`}>
-//             <Axis scale={yScale} orientation="left" />
-//           </g>
 //         </g>
 //       </g>
 //     </g>
 //   );
 // }
 
-// function Axis({ scale, orientation }) {
-//   const axisRef = React.useRef(null);
-//   React.useEffect(() => {
-//     const axis = d3.axisLeft(scale).tickFormat(d => d);
-//     if (orientation === "bottom") {
-//       axis.tickFormat(d => "'" + d.toString().slice(2));
-//     }
-//     d3.select(axisRef.current).call(axis);
-//   }, [scale, orientation]);
-//   return <g ref={axisRef} />;
-// }
+
 
 // the Chart component
 function Charts() {
@@ -248,16 +195,11 @@ function Charts() {
     setMonth(event.target.value);
   }
   //loading the whole data set
-  const {dataAll,dataAll2} = useData(csvUrl, csvUrl2);
+  const {dataAll} = useData(csvUrl);
   if (!dataAll) {
     return <pre>Loading...</pre>;
   };
 
-  // load2nd
-  // const dataAll2 = useData2(csvUrl2);
-  // if (!dataAll2) {
-  //   return <pre>Loading...</pre>;
-  // };
 
   const YEAR = ['1920s', '1930s', '1940s', '1950s', '1960s', '1970s', '1980s', '1990s', '2000s', '2010s'];
   //get the monthly data
@@ -265,9 +207,9 @@ function Charts() {
     return d.range === YEAR[range]
   });
 
+
   const dTooltip = data.filter(d => d.Series_Title === selectedStation)[0];
 
-  // gptjiade
   //group data by year and genre to get count of series titles
   const genreCount = d3.group(data, d => d.Genre);
   const yearCount = d3.group(data, d => d.Released_Year);
@@ -278,8 +220,6 @@ function Charts() {
 
   //create color scale
   const colorScale = d3.scaleSequential().domain([minCount, maxCount]).interpolator(d3.interpolateYlOrRd);
-
-
 
   return <div>
     <div>
@@ -307,7 +247,7 @@ function Charts() {
           <Heatmap
             offsetX={margin.left + 10}
             offsetY={margin.top}
-            data={dataAll2}
+            data={dataAll}
             height={height}
             width={width}
           />
@@ -315,7 +255,7 @@ function Charts() {
       </div>
       <div className='col-lg-6'>
         <svg width={'100%'} viewBox={`0 0 ${SVG_WIDTH} ${SVG_HEIGHT}`}>
-          <CreateGraph x={margin.left} y={margin.right} width={width} height={height} data={dataAll2} />
+          <CreateGraph x={margin.left} y={margin.right} width={width} height={height} data={data} />
         </svg>
       </div>
     </div>

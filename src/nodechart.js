@@ -1,13 +1,28 @@
 import React from 'react';
 import * as d3 from 'd3';
 
+const changecolor = "white"
+
 export function CreateGraph(props) {
-    const { x, y, width, height, data } = props;
+    const { x, y, width, height, data} = props;
     const d3Selection = React.useRef();
+
+    // const getColor = (selectedStation, station) => {
+    //     if (station === selectedStation)
+    //     {return changecolor}
+    //     else{
+    //         console.log(station);
+    //         return "steelblue"}
+    // }
+
     React.useEffect(() => {
+
+        const g = d3.select(d3Selection.current);
+        g.selectAll('*').remove();
+
         let nodes = d3.groups(data, d => d["Genre"])
             .map(d => { return { id: d[0], name: d[1][0]["Series_Title"], value: d[1].length } });
-        console.log(nodes);
+        // console.log(nodes);
         const radius = d3.scaleLinear().range([1, 100])
             .domain([d3.min(nodes, d => d.value), d3.max(nodes, d => d.value)]);
         const color = (id) => {
@@ -22,7 +37,10 @@ export function CreateGraph(props) {
         // .force("charge", d3.forceManyBody())
         // .force("centrer", d3.forceCenter( width/2, height/2));
 
-        let g = d3.select(d3Selection.current);
+        // let g = d3.select(d3Selection.current);
+
+
+        
 
         const node = g.append("g")
             .attr("stroke", "white")
@@ -43,7 +61,7 @@ export function CreateGraph(props) {
             .attr("alignment-baseline", "middle")
             .attr("fill", "#000")
             .style("font-size", "10px")
-            .style("font-weight", "lighter");
+            .style("font-weight", "100");
 
         simulation.on("tick", () => {
             node.attr("transform", d => `translate(${d.x},${d.y})`);
@@ -69,7 +87,7 @@ export function CreateGraph(props) {
                 .on("drag", dragged)
                 .on("end", dragended);
         };
-    }, [width, height])
+    }, [width, height,data])
     return <g ref={d3Selection} transform={`translate(${x}, ${y})`}>
     </g>
 }
